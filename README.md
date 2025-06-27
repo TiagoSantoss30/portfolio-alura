@@ -1,2 +1,8 @@
-# portfolio-alura
-Este é um simples projeto que foi disponibilizado durante as aulas de um curso na Alura. É um site que possui o objetivo de apresentar informações sobre uma desenvolvedora.
+# Projeto Alura (Portfolio)
+
+### Sobre:
+Este é um projeto bem simples. É um site desenvolvido realmente como um portfolio para facilitar a apresentação da desenvolvedora para com uma empresa, por exemplo.
+
+### Tecnologias Utilizadas No Desenvolvimento
+- React Js
+- Figma
