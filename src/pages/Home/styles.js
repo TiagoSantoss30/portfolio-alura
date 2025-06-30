@@ -6,6 +6,14 @@ export const MainSection = styled.main`
   align-items: center;
   padding: 2% 15%;
   color: #f6f6f6;
+
+  img{
+    width: 35%;
+  }
+
+  @media (max-width: 1200px){
+    flex-direction: column-reverse;
+  }
 `;
 
 export const Section = styled.section`
@@ -25,13 +33,17 @@ export const Section = styled.section`
 
   p {
     font-size: 1.5rem;
-    text-align: justify;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
 
     strong {
       color: #22d4fd;
     }
+  }
+
+  @media (max-width: 1200px) {
+    width: auto;
+    padding: 5%;
   }
 `;
 
@@ -64,6 +76,10 @@ export const SocialMediaLinks = styled.nav`
 
     &:hover {
       background-color: #272727;
+    }
+
+    @media (max-width: 900px){
+      font-size: 1rem;
     }
   }
 
