@@ -16,4 +16,9 @@ export const Header = styled.header`
         font-weight: 600;
     }
   }
+
+  @media (max-width: 1200px){
+    padding: 10%;
+    justify-content: center;
+  }
 `;
