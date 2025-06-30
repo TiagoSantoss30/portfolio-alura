@@ -8,7 +8,7 @@ import { FaTwitch } from "react-icons/fa";
 
 import Footer from "../../components/Footer/index.jsx";
 
-function Home(){
+export default function Home(){
     return (
       <>
         <Header />
@@ -31,17 +31,17 @@ function Home(){
               <h2>Acesse minhas redes:</h2>
 
               <a href="#">
-                <FaGithub className="icon" />
+                <FaGithub className="media-icon" />
                 Github
               </a>
 
               <a href="#">
-                <FaLinkedinIn className="icon" />
+                <FaLinkedinIn className="media-icon" />
                 Linkedin
               </a>
 
               <a href="#">
-                <FaTwitch className="icon" />
+                <FaTwitch className="media-icon" />
                 Twitch
               </a>
             </S.SocialMediaLinks>
@@ -58,4 +58,3 @@ function Home(){
     );
 }
 
-export default Home;
