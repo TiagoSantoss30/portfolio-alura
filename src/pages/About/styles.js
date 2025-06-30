@@ -6,6 +6,14 @@ export const MainSection = styled.main`
   align-items: center;
   padding: 2% 15%;
   color: #f6f6f6;
+
+  img {
+    width: 35%;
+  }
+
+  @media (max-width: 1200px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const Section = styled.section`
@@ -22,5 +30,10 @@ export const Section = styled.section`
   p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
+  }
+
+  @media (max-width: 1200px) {
+    width: auto;
+    padding: 5%;
   }
 `;
