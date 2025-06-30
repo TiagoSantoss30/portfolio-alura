@@ -1,6 +1,6 @@
 import * as S from "./styles.js";
 
-function Footer() {
+export default function Footer() {
   return (
     <S.Footer>
       <p>Desenvolvido Por Tiago Santos</p>
@@ -8,4 +8,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+
