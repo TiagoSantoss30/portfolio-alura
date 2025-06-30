@@ -67,7 +67,7 @@ export const SocialMediaLinks = styled.nav`
     }
   }
 
-  .icon{
+  .media-icon{
     color: #22d4fd;
   }
 `;
