@@ -1,6 +1,6 @@
 import * as S from "./styles.js";
 
-function Header() {
+export default function Header() {
   return (
     <S.Header>
       <nav>
@@ -11,4 +11,4 @@ function Header() {
   );
 }
 
-export default Header;
+
